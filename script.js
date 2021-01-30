@@ -1,5 +1,5 @@
 // Function
-function ticketCountHandler(ticketCategory, isIncreased) {
+  function ticketCountHandler(ticketCategory, isIncreased) {
     const ticketInput = document.getElementById(ticketCategory + "-ticket").value;
     const ticketCount = parseInt(ticketInput);
     let newTicketCount = ticketCount;
